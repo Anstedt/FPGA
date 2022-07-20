@@ -1,0 +1,33 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.v'
+WARN  (EX3373) : Port 'led' must not be declared to be an array("C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.v":4)
+Compiling module 'led_io_control'("C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.v":1)
+NOTE  (EX0101) : Current top module is "led_io_control"
+WARN  (EX0211) : The output port "led[5]" of module "led_io_control" has no driver("C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.v":4)
+WARN  (EX0211) : The output port "led[4]" of module "led_io_control" has no driver("C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.v":4)
+WARN  (EX0211) : The output port "led[3]" of module "led_io_control" has no driver("C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.v":4)
+WARN  (EX0211) : The output port "led[2]" of module "led_io_control" has no driver("C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.v":4)
+[5%] Running netlist conversion ...
+WARN  (CV0003) : Output "led[2]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.v":4)
+WARN  (CV0003) : Output "led[3]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.v":4)
+WARN  (CV0003) : Output "led[4]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.v":4)
+WARN  (CV0003) : Output "led[5]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.v":4)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\impl\gwsynthesis\led_io_control.vg" completed
+[100%] Generate report file "C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\impl\gwsynthesis\led_io_control_syn.rpt.html" completed
+GowinSynthesis finish

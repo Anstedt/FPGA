@@ -1,0 +1,10 @@
+-d C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\impl\gwsynthesis\led_io_control.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\src\led_io_control.cst
+-cfg C:\Users\hanst\Documents\FPGA\git\FPGA\led_io_control\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
