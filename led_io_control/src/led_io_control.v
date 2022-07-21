@@ -41,9 +41,11 @@ always @(posedge sys_clk or negedge btn_A) begin
             end
         // Here we just go in the selected direction
         if (mygo_right == 1)
-            led[5:0] <= {led[0], led[5], led[4], led[3], led[2], led[1]}; // Right
+            led[5:0] <= {led[0], led[5:1]}; // Right
+            // led[5:0] <= {led[0], led[5], led[4], led[3], led[2], led[1]}; // Right
         else
-            led[5:0] <= {led[4], led[3], led[2], led[1], led[0], led[5]}; // Left
+            led[5:0] <= {led[4:0], led[5]}; // Left
+            // led[5:0] <= {led[4], led[3], led[2], led[1], led[0], led[5]}; // Left
         end
     else
         led <= led;
