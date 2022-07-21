@@ -57,3 +57,13 @@ Steps:
       - Use sram
       - Click Program button. looks like a disk driver with a pencil over it
       - Programs and runs the new module/application
+
+# led_io_control
+  based on https://github.com/sipeed/TangNano-9K-example/tree/main/led
+
+## What I learned
+- Usage of sys_clk, notice it is really pin 52
+- Handling logic such as ==, ||, && etc.
+- big improvement for me is understanding led bus
+- Now I use concatenation correctly
+- My own simple flags

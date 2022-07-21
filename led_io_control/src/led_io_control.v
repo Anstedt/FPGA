@@ -20,7 +20,7 @@ always @(posedge sys_clk or negedge btn_A) begin
 end
 
 always @(posedge sys_clk or negedge btn_A) begin
-    if (!btn_A) // Reset everything if A is pressed, not A is held high by default
+    if (!btn_A) // Reset everything if A is pressed, note A is held high by default
         begin
             led <= 6'b111110;
             mygo_right = 0;

@@ -5,3 +5,4 @@ led_io_control/impl/pnr/*.html
 **/*.bin*
 **/*.log
 **/*.txt
+**/*.db
